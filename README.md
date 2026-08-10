@@ -25,7 +25,7 @@ The project includes:
 
 The project uses the Heart Disease Dataset available on Kaggle:
 
-https://www.kaggle.com/datasets/neurocipher/heartdisease
+[https://www.kaggle.com/datasets/neurocipher/heartdisease](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)
 
 The dataset contains clinical information about patients that can be used to study the presence or absence of heart disease.
 
@@ -102,12 +102,14 @@ No endpoint or deployment service was created because SageMaker was used only fo
 The project notebook was uploaded and executed in the Amazon SageMaker JupyterLab environment provided by AWS Academy.
 
 ![SageMaker Notebook](images/sagemaker_notebook.png)
+![SageMaker Notebook](images/sagemaker_notebook_2.png)
 
 ### 2. Model Training
 
 The final regularized logistic regression model was trained again inside SageMaker using gradient descent with 1,000 iterations.
 
 ![SageMaker Training](images/sagemaker_training.png)
+![SageMaker Training](images/sagemaker_training_2.png)
 
 The training process completed successfully and the cost decreased during the iterations.
 
